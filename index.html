@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Books</a>
+
+
+        </div>
+    </nav>
+
+   <!-- carousel -->
+   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img  src="https://images7.alphacoders.com/132/1326369.png" class="d-block w-100" alt="...">
+       
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img  src="https://images.alphacoders.com/132/1326370.png" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img  src="https://w0.peakpx.com/wallpaper/462/154/HD-wallpaper-read-the-books-technology-other-entertainment-people.jpg" class="d-block w-100" alt="...">
+       
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h1 class="text-center mt-5">List of Books</h1>
+  <hr>
+
+    <!-- cards -->
+    <div class="row d-flex justify-content-between mt-2  p-4   ">
+        <div class="col-md-4 card ms-3 mt-5 " style="width: 18rem;">
+            <img  data-bs-toggle="modal" data-bs-target="#exampleModal"
+                src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg"
+                class="card-img-top w-100 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Harry Potter</h5>
+                <p class="card-text mb-3">
+                    The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday
+                </p>
+                
+               <br>
+                <a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658/ref=sr_1_2?crid=3HGRHDXK9OROM&keywords=harry+potter+and+the+philosopher%27s+stone&qid=1696971881&sprefix=harry+potter+%2Caps%2C323&sr=8-2">Buy Now</a>
+               
+            </div>
+        </div>
+
+        <div class="col-md-4 card ms-3 mt-5 " style="width: 18rem;">
+            <img data-bs-toggle="modal" data-bs-target="#exampleModal-1"
+                src="https://image.ceneostatic.pl/data/products/92891594/i-the-man-who-saw-everything-penguin-books.jpg" class="card-img-top w-100 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Man Who Saw Everything</h5>
+                <p class="card-text mb-3">
+                    In the immediate aftermath of the accident Saul, a student of eastern European communist history, breaks up with his photographer girlfriend
+                </p>
+                <br>
+                
+                <a href="https://www.amazon.in/Man-Who-Saw-Everything/dp/0241268028/ref=sr_1_1?crid=VWV5XZFUQMYF&keywords=the+man+who+saw+everything&qid=1696972031&sprefix=the+man+who+saw+%2Caps%2C320&sr=8-1">Buy Now</a>
+
+                
+            </div>
+        </div>
+
+
+        <div class="col-md-4 card ms-3 mt-5 " style="width: 18rem;">
+            <img data-bs-toggle="modal" data-bs-target="#exampleModal-2"
+                src="https://m.media-amazon.com/images/I/615ZJFmb0fL._AC_UF1000,1000_QL80_.jpg" class="card-img-top w-100 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Darkest Before the Dawn</h5>
+                <p class="card-text mb-3">
+                    Darkest Before Dawn is a romance shrouded in darkness, where "good intentions are laced with evil and love is, in a sense, a prison." It's a story picturing a reality that
+                </p>
+                <br>
+              
+                <a  href="https://www.amazon.in/Darkest-Before-Dawn-Second-Dark-ebook/dp/B0768J9G27/ref=sr_1_1?crid=1O1E0GY2VJJZX&keywords=darkest+before+the+dawn&qid=1696972111&sprefix=darkest+before+the+dawn%2Caps%2C294&sr=8-1">Buy Now</a>
+
+
+             
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Harry Potter</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid"
+                        src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg"
+                        class="card-img-top" alt="...">
+                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">The Man Who Saw Everything</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="https://image.ceneostatic.pl/data/products/92891594/i-the-man-who-saw-everything-penguin-books.jpg" class="card-img-top" alt="...">
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Darkest Before the Dawn</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid"
+                                src="https://m.media-amazon.com/images/I/615ZJFmb0fL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="...">
+                           
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <footer class="bg-dark text-white p-4 mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>About Us</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum finibus auctor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Contact Information</h5>
+                                <address>
+                                    <p>123 Main Street<br>City, State ZIP<br>Email: info@example.com</p>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
